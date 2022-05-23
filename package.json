@@ -1,0 +1,9 @@
+{
+  "name": "gelith",
+  "version": "0.0.2",
+  "license": "MIT",
+  "dependencies": {
+    "inquirer": "^8.2.4",
+    "yargs": "^17.5.1"
+  }
+}

@@ -1,5 +1,6 @@
 const inquirer = require('inquirer');
 const node = require('./node');
+const react = require('./react');
 
 module.exports = async function () {
   const { app_name, app_type } = await inquirer.prompt([
@@ -18,4 +19,5 @@ module.exports = async function () {
   ]);
 
   if (app_type === 'node') node(app_name);
+  if (app_type === 'react') react(app_name);
 };

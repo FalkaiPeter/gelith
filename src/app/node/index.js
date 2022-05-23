@@ -9,8 +9,8 @@ module.exports = async function (app_name) {
   mkdirSync(dir);
   mkdirSync(dir + '/src');
 
-  writeFileSync(dir + 'src/index.ts', '');
-  writeFileSync(dir + 'package.json', packageJson(repo_name, app_name));
-  writeFileSync(dir + 'tsconfig.json', tsconfigJson);
-  writeFileSync(dir + '.gitignore', gitignore);
+  writeFileSync(dir + '/src/index.ts', '');
+  writeFileSync(dir + '/package.json', packageJson(repo_name, app_name));
+  writeFileSync(dir + '/tsconfig.json', tsconfigJson);
+  writeFileSync(dir + '/.gitignore', gitignore);
 };

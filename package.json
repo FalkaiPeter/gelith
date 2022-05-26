@@ -2,6 +2,26 @@
   "name": "gelith",
   "version": "0.0.2",
   "license": "MIT",
+  "author": "Falkai Peter",
+  "bin": "src/index.js",
+  "main": "src/index.js",
+  "description": "Simple generator tool for lerna based monorepos",
+  "homepage": "https://github.com/FalkaiPeter/gelith#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FalkaiPeter/gelith.git"
+  },
+  "keywords": [
+    "lerna",
+    "monorepo",
+    "svelte",
+    "react",
+    "node",
+    "generator",
+    "typescript",
+    "rollup",
+    "ts"
+  ],
   "dependencies": {
     "inquirer": "^8.2.4",
     "yargs": "^17.5.1"

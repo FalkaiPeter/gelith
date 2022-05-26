@@ -1,5 +1,5 @@
 const packageJson = (repo_name, name) => `{
-  "name": "${repo_name}/${name}",
+  "name": "@${repo_name}/${name}",
   "version": "0.0.0",
   "private": true,
   "license": "MIT",
@@ -20,10 +20,10 @@ const tsconfigJson = `{
   "compilerOptions": {
     "outDir": "dist",
     "rootDir": "src",
-    "baseUrl": "src"
+    "declaration": false
   },
   "include": ["src"],
-  "exclude": ["dist"]
+  "exclude": ["node_modules", "dist"]
 }`;
 
 const gitignore = `node_modules

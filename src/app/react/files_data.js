@@ -1,6 +1,6 @@
 const packageJson = (repo_name, app_name) => `
 {
-  "name": "${repo_name}/${app_name}",
+  "name": "@${repo_name}/${app_name}",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -29,7 +29,8 @@ const tsconfigJson = `{
     "rootDir": "src",
     "baseUrl": "src"
   },
-  "include": ["src", "vite.config.ts"]
+  "include": ["src", "vite.config.ts"],
+  "exclude": ["node_modules", "dist"]
 }`;
 
 const viteconfigTs = `import react from "@vitejs/plugin-react";

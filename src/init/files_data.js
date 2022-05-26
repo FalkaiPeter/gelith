@@ -40,6 +40,7 @@ const tsconfigBaseJson = `{
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "allowJs": false,
+    "sourceMap": true,
     "esModuleInterop": true,
     "allowSyntheticDefaultImports": true,
     "noFallthroughCasesInSwitch": true,

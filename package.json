@@ -5,17 +5,15 @@
   "author": "Falkai Peter",
   "bin": "src/index.js",
   "main": "src/index.js",
-  "description": "Simple generator tool for lerna based monorepos",
+  "description": "Simple generator tool for pnpm monorepos",
   "homepage": "https://github.com/FalkaiPeter/gelith#readme",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/FalkaiPeter/gelith.git"
   },
   "keywords": [
-    "lerna",
+    "pnpm",
     "monorepo",
-    "svelte",
-    "react",
     "node",
     "generator",
     "typescript",
@@ -24,6 +22,7 @@
   ],
   "dependencies": {
     "inquirer": "^8.2.4",
-    "yargs": "^17.5.1"
+    "yargs": "^17.5.1",
+    "copyfiles": "2.4.1"
   }
 }
